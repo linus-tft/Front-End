@@ -1,0 +1,442 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color:#ffffff;
+    
+}
+
+#mainHeader{
+    margin: 0px;
+    background-image: url("spice bkg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: -200px;
+    min-height: 190px;
+    color:#fff;
+
+}
+
+#headerElements{
+
+    display: flex;
+}
+
+
+#headerElements img{
+    min-width:150px;
+    max-width: 200px;
+    min-height:150px;
+    border-radius: 50%;
+}
+
+#headerElements #logoImage{
+    width:33.3%;
+    float: left;
+    margin:20px;
+}
+
+#headerElements #searchForm{
+    float: right;
+    margin-top:100px;
+    font-size: 20px;
+    width: 33.3%;
+    text-align: right;
+    padding-right: 10px;
+
+}
+
+#headerElements #searchForm .myForm input[type="search"]{
+    
+    padding: 5px 0;
+    
+}
+
+.welcome a{
+
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: brown;
+    
+
+}
+
+.welcome{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    vertical-align: top;
+}
+
+#amazonLogo{
+    max-width: 100px;
+    vertical-align: bottom;
+}
+
+
+.container{
+
+    width:80%;
+    align-self: center;
+    margin-left: 10%;
+    overflow: hidden;
+}
+
+
+#headerElements #companyName a{
+    
+    text-align: center;
+    display: none;
+    
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+#headerElements #companyName{
+  
+    width:33.3%;
+    margin-top: 75px;
+}
+
+#menuBar{
+    margin: 0;
+    vertical-align: bottom;
+    background-color: rgba(255, 0, 0, 0.842);
+    color: black;
+   
+}
+
+#menuBar ul{
+    list-style: none;
+    padding:7px;
+}
+
+#menuBar li{
+    display: inline;
+    padding: 20px;
+    width: 100%;
+}
+
+nav .current a{ 
+    color: rgb(1, 1, 17);
+    font: 20px Tahoma bolder;
+
+}
+nav a{
+    text-decoration: none;
+    font: 20px bold verdana;
+    color: #fff;
+}
+
+nav a:hover{
+    color:rgb(35, 252, 46);
+}
+
+
+#companyName a{
+    text-decoration: none;
+}
+
+
+.text {
+    padding: 20px;
+    width: 70%;
+    background-color: rgba(245, 245, 245, 0.295);
+    font: bold 16px Arial; 
+    border: 5px tomato solid;
+    margin-bottom: 50px;
+    margin-top:10px;
+}
+
+.text h1{
+    text-align: center;
+    padding:5px;
+    
+}
+
+.mainBody{
+    margin: 1%;
+    background:#fff;
+ 
+}
+
+#mainFooter{
+    background-color: rgb(1, 0, 61);
+    color: cornsilk;
+    font-size: 20px;
+    min-height: 100px;
+    width:100%;
+    margin: 0 auto;
+    padding:20px;
+}
+
+.contactForm{
+    padding: 20px;  
+}
+
+.contactForm .formElements{
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.contactForm .formElements :placeholder-shown{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contactForm label{
+    display: block;
+    color: ivory;
+    padding: 5px;
+}
+
+.contactForm input[type="text"] , .contactForm input[type="email"], .contactForm input[type="number"], .contactForm input[type=date], .contactForm textarea{
+    width: 80%;
+    padding: 5px 0;
+    border: 2px solid rgba(255, 0, 0, 0.842);
+}
+
+
+
+.contactForm input[type="submit"]{
+    background-color: rgb(255, 255, 255);   
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px;
+    min-width: 30%;
+   
+}
+
+.formElements input[type="submit"]:hover{
+    background-color: rgb(255, 0, 43);
+    color:linen;
+}
+
+
+.imageLeft{
+    margin-top:1%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width:50%;
+    box-sizing: border-box;
+    min-height: 200px;
+    border: #000 solid 2px;
+    margin-bottom: 1%;
+    border-radius: 25px;
+    background: rgba(34, 34, 36, 0.89);
+    align-self: center;
+    color: #fff;
+}
+
+.imageLeft img{
+    width:150px;
+    float:left;
+    padding:2%;
+    vertical-align: middle;
+
+}
+
+.imageLeft h2{
+    padding:2%;
+    color:burlywood
+}
+
+.imageRight{
+    margin-top:1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width:50%;
+    box-sizing: border-box;
+    min-height: 200px;
+    border: #000 solid 2px;
+    margin-bottom: 1%;
+    border-radius: 25px;
+    background: rgba(34, 34, 36, 0.89);
+    color:#fff;
+}
+
+.imageRight img{
+    width:150px;
+    float:right;
+    padding: 2%;
+    vertical-align: middle;
+}
+
+.imageRight h2{
+    padding: 2%;
+    color: burlywood;
+}
+
+.imageRight p{
+    padding-left: 2%;
+}
+
+
+#formSection{
+
+    width:48%;
+    float:left;
+    background: rgba(34, 34, 36, 0.89);
+    padding: 15px;
+    margin:1%;
+    margin-top: 0;
+    box-sizing: border-box;
+    border: 3.5px solid rgba(255, 0, 0, 0.842);
+   
+}
+
+#adrsSection{
+    width:40%;
+    min-height: inherit;
+    float:right;
+    background: rgba(34, 34, 36, 0.89);
+    padding: 15px;
+    margin:1%;
+    margin-top: 0;
+    box-sizing: border-box;
+    color:#fff;
+    padding: 20px;
+    border: 3.5px solid rgba(255, 0, 0, 0.842);
+}
+
+@media(max-width:768px)
+{
+    .container{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    header #headerElements{
+        display: block;
+     
+    }
+      
+    header #headerElements #companyName,
+    header #headerElements #searchForm,
+    header #headerElements #searchForm .myForm input
+    {
+        float: none;
+        width:100%;
+        margin:20px 0;
+    
+        text-align: center;
+    }
+ 
+    .myForm{
+        text-align: left;
+    }
+
+    header #headerElements #logoImage{
+        float: none;
+        width: 100%;
+        margin-left: 30%;
+    }
+    header #headerElements img
+    
+    {
+        float: none;
+        width:100px;
+        margin:20px;
+        align-items: center;
+    }
+
+    #menuBar li{
+        padding: 0px;
+        display: block;
+        padding:10px;
+        text-align: center;
+    }
+
+    #formSection,
+    #formSection input,
+    #formSection textarea{
+        width:100%;
+        float:none;
+
+    }
+
+    #adrsSection{
+        width:100%;
+        float:none;
+    }
+
+
+   
+    .imageLeft img,
+    .imageRight img{
+        float:none;
+        margin-left:20%;
+        margin-top: 5px;       
+    }
+
+    .imageRight,.imageLeft{
+        padding: 10px;
+        margin:auto;
+        margin-top: 10px;
+        min-width: 70%;
+        float: none;
+    }
+
+    .imageRight h2,
+    .imageLeft h2{
+        text-align: center;
+    }
+
+    .mapouter,.gmap_canvas{
+        display: none;
+    }
+
+    .text{
+        float: none;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    #mainFooter{
+
+        text-align: center;
+    }
+       
+}
+
+
+
+.prodTab{
+width:100%;
+}
+
+.prodTab th,td,table{
+    
+    border: 1px #000 solid;
+    border-collapse: collapse;
+    text-align:center;
+    padding: 2px;
+
+}
+/*.prodTab td{
+    border: 1px #000 solid;
+    text-align: center;
+    padding: 2px;
+}*/
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:500px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:100%;
+    width:100%;
+    margin-left: 12%;
+}
+
+                 
