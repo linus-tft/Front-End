@@ -16,8 +16,7 @@ body{
     background-position-x: 0;
     background-position-y: -200px;
     min-height: 190px;
-    color:#fff;
-
+    color:#000;
 }
 
 #headerElements{
@@ -303,8 +302,58 @@ nav a:hover{
     border: 3.5px solid rgba(255, 0, 0, 0.842);
 }
 
+
+
+.prodTab{
+    width:100%;
+    }
+    
+    .prodTab th,td,table{
+        
+        border: 1px #000 solid;
+        border-collapse: collapse;
+        text-align:center;
+        padding: 2px;
+    
+    }
+    /*.prodTab td{
+        border: 1px #000 solid;
+        text-align: center;
+        padding: 2px;
+    }*/
+    
+    .mapouter{
+        position:relative;
+        text-align:right;
+        height:500px;
+        width:500px;
+    }
+    
+    .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:100%;
+        width:100%;
+        margin-left: 12%;
+    }
+    
+                 
+    
+ 
+
 @media(max-width:1080px)
 {
+    
+    #mainHeader{
+        margin: 0px;
+        background-image: url("spice bkg.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-x: 0;
+        background-position-y: 0;
+        min-height: 190px;
+        color:#000;
+    }
     .container{
         margin-left: 5%;
         margin-right: 5%;
@@ -397,6 +446,11 @@ nav a:hover{
         margin-bottom: 10px;
     }
 
+    .sidebarImages{
+
+        width:100%
+
+    }
     #mainFooter{
 
         text-align: center;
@@ -404,39 +458,3 @@ nav a:hover{
        
 }
 
-
-
-.prodTab{
-width:100%;
-}
-
-.prodTab th,td,table{
-    
-    border: 1px #000 solid;
-    border-collapse: collapse;
-    text-align:center;
-    padding: 2px;
-
-}
-/*.prodTab td{
-    border: 1px #000 solid;
-    text-align: center;
-    padding: 2px;
-}*/
-
-.mapouter{
-    position:relative;
-    text-align:right;
-    height:500px;
-    width:500px;
-}
-
-.gmap_canvas {
-    overflow:hidden;
-    background:none!important;
-    height:100%;
-    width:100%;
-    margin-left: 12%;
-}
-
-                 
